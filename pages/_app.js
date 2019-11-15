@@ -13,4 +13,4 @@ class MyApp extends App {
   }
 }
 
-export default appWithTranslation(withRouteAccess(MyApp));
+export default withRouteAccess(appWithTranslation(MyApp));
